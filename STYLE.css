@@ -1,0 +1,336 @@
+@font-face 
+{
+	 font-family: "Quicksand-LightItalic";
+	 src: url("Quicksand-LightItalic.otf");
+}
+
+@font-face
+{
+	font-family: "Quicksand-Regular";
+	src: url("Quicksand-Regular.otf");
+}
+
+@font-face
+{
+	font-family: "EuphoriaScript-Regular";
+	src: url("EuphoriaScript-Regular.otf");
+}
+/*---------------------------------------------------------------------*/
+
+body
+{
+	
+	background-image: url('IMAGES/nuages.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+/*---------------------------------------------------------------------*/
+
+.profil, .formation, .competencelangue, .centresinteret
+{
+	font-size: 3em;
+}
+
+nav
+{
+	list-style-type: none;
+	text-decoration: none;
+	background-color: #e0c1b5;
+	width: 100%;
+	
+}
+
+nav ul
+{ 
+	margin-left: 11%;
+	margin-top: 0;
+}
+
+nav ul li
+{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+}
+
+a.active:hover
+{
+	background-color: white;
+	color: #7e95b5;
+	transition: 0,5s;
+}
+
+.fond
+{
+	background-color: rgba(0, 0, 0, 0);
+/*	box-shadow: 20px 20px 50px 15px white; */
+	margin: 20em;
+
+}
+
+
+.titre
+{
+	font-family: "Quicksand-LightItalic";
+	text-decoration: overline underline;
+	font-size: 7em;
+	margin-top: 2em
+}
+
+
+.nom
+{
+	font-family: "EuphoriaScript-Regular";
+	font-size: 8em;
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	background-image: url('IMAGES/tablette.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: white; 
+	color: white;
+	text-align:center;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+
+.image
+{
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+
+}
+
+
+.images
+{
+	background-color: rgba(0, 0, 0, 0);
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+
+.profil
+{
+	 font-family: "Quicksand-LightItalic";
+	background-color: rgba(0, 0, 0, 0);
+	padding-top: 3%;
+	padding-bottom:3%;
+	margin-top: 0;
+	margin-bottom:0;
+}
+
+
+.profils
+{
+	background-color: #e0c1b5;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	text-align: center;
+
+}
+
+.profils p:first-child
+{
+	font-family: "Quicksand-LightItalic";
+	color: white;
+	text-shadow: #FC0 1px 0 10px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2em;
+}
+
+.formation
+{
+	 font-family: "Quicksand-LightItalic";
+	background-color: rgba(0, 0, 0, 0);
+	padding-top: 3%;
+	padding-bottom:3%;
+	margin-top: 0;
+	margin-bottom:0;
+	text-align: right;
+}
+
+.formations
+{
+	background-color: #e0c1b5;
+	background-position: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.formations section
+{
+	border-radius: 100%;
+}
+
+.section
+{
+	background-color: rgb(135, 114, 153);
+	text-align: center;
+	margin-left: 38%;
+	width: 25%;
+	display: block;
+	color: white;
+
+}
+
+.section p:first-child
+{
+	color: red;
+	text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
+	font-size: 1.4em;
+}
+
+.competencelangue
+{
+	font-family: "Quicksand-LightItalic";
+	background-color: rgba(0, 0, 0, 0);
+	padding-top: 3%;
+	padding-bottom:3%;
+	margin-top: 0;
+	margin-bottom:0;
+}
+
+.competencelangues
+{
+	background-color: #e0c1b5;
+	background-position: center;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+label
+{
+	color: white;
+	font-weight: 2em;
+}
+
+progress 
+{
+  border-radius: 7px; 
+  width: 30%;
+  height: 22px;
+  box-shadow: 1px 1px 4px rgba( 255,255,255,.2 );
+}
+
+progress::-webkit-progress-bar 
+{
+  background-color: rgb(135, 114, 153);
+  border: solid;
+  border-color: rgb(135, 114, 153);
+  border-radius: 7px;
+}
+
+progress::-webkit-progress-value 
+
+{
+  background-color: white;
+  border-radius: 7px;
+}
+
+
+.centresinteret
+{
+	 font-family: "Quicksand-LightItalic";
+	background-color: rgba(0, 0, 0, 0);
+	padding-top: 3%;
+	padding-bottom:3%;
+	margin-top: 0;
+	margin-bottom:0;
+	text-align: right;
+}
+
+
+.centresinterets
+{
+	background-color: #e0c1b5;
+	background-position: center;
+	overflow: hidden;
+ }
+
+
+.centresinterets section
+{
+	background-color: rgb(135, 114, 153);
+	margin-top: 2em;
+	margin-right: 2em;
+	margin-left: 2em;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+
+.contact
+{
+	font-family: "Quicksand-Regular";
+	color: white;
+	font-size: 4em;
+	text-decoration: overline;
+	background-color: rgba(0, 0, 0, 0);
+	padding-top: 3%;
+	padding-bottom:3%;
+	margin-top: 2em;
+	margin-bottom:0;
+	text-align: center;
+}
+
+
+.contacts
+{
+	background-color: rgba(0, 0, 0, 0);
+	background-position: center;
+	color: white;
+	text-align: center;
+}
+
+.information
+{
+	font-family: "Quicksand-Regular";
+	color: white;
+	font-size: 2em;
+	text-decoration: overline;
+	background-color: rgba(0, 0, 0, 0);
+	padding-top: 3%;
+	padding-bottom:3%;
+	margin-top: 0;
+	margin-bottom:0;
+	text-align: center;
+}
+
+.informations
+{
+	background-color: rgba(0, 0, 0, 0);
+	background-position: center;
+	color: white;
+	text-align: center;
+}
+/*---------------------------------------------------------------------*/
+
+
+h1
+{
+	text-align: center;
+	color: white;
+}
+
+/*---------------------------------------------------------------------*/
